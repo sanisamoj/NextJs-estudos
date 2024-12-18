@@ -16,3 +16,20 @@ input[type='number']::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+.calendar-header {
+  min-height: 60px; /* Define a altura mínima */
+  max-height: 60px; /* Opcional: restringe a altura */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calendar-header h2 {
+  flex-grow: 1; /* Faz o título ocupar o máximo de espaço possível */
+  text-align: center;
+  font-size: 1rem; /* Ajusta o tamanho do texto para ser uniforme */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

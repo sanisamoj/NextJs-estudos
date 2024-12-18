@@ -68,7 +68,7 @@ const CustomCalendar = () => {
 
     return (
         <div className="flex-1 bg-white shadow-lg rounded-lg overflow-hidden">
-            <header className="flex justify-between items-center bg-blue-500 text-white p-4">
+            <header className="calendar-header flex justify-between items-center bg-blue-500 text-white p-4">
                 <button onClick={goToPreviousMonth} className="text-lg font-bold hover:bg-blue-600 px-2 py-1 rounded">&lt;</button>
                 <h2 className="text-xl font-semibold">
                     {view === "month"
